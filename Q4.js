@@ -1,8 +1,8 @@
-// var alpha = "ABCDEFGHIJ"
-// var jumps = 7
+var alpha = "ABCDEFGHIJ"
+var jumps = 7
 //"G", "D", "B","-", "A", "C", "F","-", "J", "E", "H","-","I"
-var alpha = "1JD7H47FH2KD9G4"
-var jumps =18
+// var alpha = "1JD7H47FH2KD9G4"
+// var jumps =18
 
 function myFunction(alpha, jumps) {
   var myArr = String(alpha).split("").map((alpha) => {
